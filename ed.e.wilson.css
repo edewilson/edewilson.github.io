@@ -1,0 +1,332 @@
+/*
+     ///////////////////////////////////////////////////////////////////////////
+    STYLESHEET:
+    CSS stylesheet for main website.
+
+    AUTHOR:
+    ed.E Wilson
+
+    CREATED:
+    1/30/2022
+
+    LAST MODIFIED:
+    3/2/2022
+    ///////////////////////////////////////////////////////////////////////////
+*/
+
+/* UNIVERSAL STYLES */
+body{
+  background-color:  #21293D;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+.nav-nav-links li a,
+.main-content-page-hero h1,
+.footer-copyright,
+.footer-footer-links li a {
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+/* NAVIGATION */
+nav {
+  background-color:#21293D;
+  height: 150px;
+  margin: 0px;
+  width: 100%;
+}
+
+.nav-logo {
+  float: left;
+  height: 175px;
+  left: 187px;  
+  position: relative;
+  top: 0px;
+}
+
+.nav-author-name {
+  color: #FAB050;
+  font-family: "Teko", "Arial", sans;
+  font-size: 48px;
+  font-style: normal;
+  left: 66px;
+  letter-spacing: 0.2em;  
+  position: relative;
+  top: 110px;
+}
+
+.nav-nav-links li {
+  display: inline-block;
+  font-size: 18rems;
+  list-style: none;
+  padding: 10px;
+  position: relative;
+  right: -1250px;
+  top: 68px;  
+}
+
+.nav-nav-links li a,
+.main-content-contactform p,
+.main-content-contactform-label-name,
+.main-content-contactform-label-email,
+.main-content-contactform-label-message {
+  color: #FAB050;
+}
+
+.main-content-contactform p,
+.main-content-contactform-label-name,
+.main-content-contactform-label-email,
+.main-content-contactform-label-message,
+.main-content-contactform-button-submit {
+  font-family: "Teko", "Arial", sans;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  height: 1250px; 
+  margin: 0px auto;
+  vertical-align: center;
+  width: 100%;
+}
+
+/* MAIN CONTENT - SECTION 1
+PAGE HERO */
+.main-content-page-hero-container {
+  height: 950px;
+  margin-left: 250px;
+  position: relative;
+  width: 1400px;
+}
+
+.main-content-page-hero-image {
+  height: 950px;
+  opacity: 0.33;
+  position: relative;
+  top: 70px;
+  width: 1400px;
+}
+
+.main-content-page-hero-captionbox {
+  background-color: #f8ae4f;
+  border: 1px solid #21293D;
+  border-radius: 30px;
+  color: #EFF0F5;
+  height: 130px;
+  margin-left: 290px;
+  position: relative;
+  top: -850px;
+  width: 700px;
+  z-index: 10
+}
+
+.main-content-page-hero-captionbox h1 {
+  color:#21293D;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 25px;
+  letter-spacing: 1px;
+  opacity: 1;
+  padding-top: 20px;
+  position: relative;
+  text-align: center; 
+}
+
+/* MAIN CONTENT - SECTION 2
+SKILLS */
+.main-content-skills {
+  height: 150px;
+  position: relative;
+  margin-left: 300px;
+  top: 70px;
+  width: 1300px;
+}
+
+.main-content-skills li {
+  display: inline-block;
+  list-style: none;
+}
+
+.main-content-skills li img {
+  height: 110px;
+  left: 500px;
+  position: relative;
+  top: -250px;
+  width: 110px;
+}
+
+/* MAIN CONTENT - SECTION 3
+ABOUT ME */
+.main-content-aboutme {
+  background-color: #E5F0FF;  
+  height: 550px;
+  margin-left: 300px;
+  position: relative;
+  text-align: center;
+  margin-top: -130px;
+  width: 1300px;
+  z-index: -1;
+}
+
+.main-content-container {
+  width: 1000px;
+}
+
+.main-content-aboutme h2{
+  color:  #4F566D;
+  font-family: "Teko", "Arial", sans;
+  font-size: 48px;
+  text-align: left;
+  text-transform: capitalize;
+  padding-left: 110px;
+  padding-top: 75px;
+  position: relative;
+}
+
+.main-content-aboutme p{
+  color: hsla(0, 1%, 22%, 1.0);
+  font-family: "Helvetica",Arial, sans;  
+  font-size: 25px;
+  text-align: left;
+}
+
+/* SECTION 4 - MAIN CONTENT
+CONTACT FORM */
+.main-content-contactform {
+  background-color:#4F566D;
+  font-size: 25px;
+  height: 950px;  
+  margin-bottom: 0;
+  margin-left: 250px;
+  position: relative;
+  text-align: center;
+  margin-top: -70px;
+  width: 1400px;
+}
+
+.main-content-contactform h2 {
+  color:  #E5F0FF;
+  font-family: "Teko", "Arial", sans;
+  font-size: 70px;
+  margin-left: 160px;
+  margin-top: 150px;
+  padding-top: 70px;
+  text-align: left;
+}
+
+.main-content-contactform p {
+  font-family: "Teko", "Arial", sans;
+  font-size: 35px;
+  margin-left: 160px;
+  text-align: left;
+  top: -55px;
+  position: relative;
+}
+
+.main-content-contactform-label-name {  
+  margin-left: -935px;  
+}
+
+.main-content-contactform-field-name,
+.main-content-contactform-field-email {
+  font-size: 28px;
+  height: 50px;
+  left: -239px;
+  max-width: 500px;  
+  position: relative;
+  width: 500px;
+}
+
+.main-content-contactform-label-email {
+  margin-left: -885px;
+}
+
+.main-content-contactform-label-message {
+  margin-left: -920px;
+}
+
+.main-content-contactform-field-message {
+  font-size: 18px;
+  height: 250px;
+  left: 83px;
+  max-width: 1000px;
+  position: relative;
+  width: 1000px;
+}
+
+.main-content-contactform-button-submit {
+  background-color:#f8ae4f;
+  color:#4F566D;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  height: 42px;
+  left: 50px;
+  position: relative;
+  top: 220px;
+  width: 144px;
+}
+
+/* FOOTER */
+footer {  
+  background-color:  #21293D;
+  color: #FAB050;  
+  height: 100px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  position: relative;
+  width: 100%;
+  z-index: 10;  
+}
+
+.footer-logo {
+  float: left;
+  height: 175px;
+  left: 340px;
+  position: relative;
+  top: 0px;
+}
+
+.footer-author-name {
+  color: #FAB050;
+  font-family: "Teko", "Arial", sans;
+  font-size: 48px;
+  left: 220px;
+  letter-spacing: 0.2em;  
+  padding-bottom: 0px;
+  position: relative;
+  top: 110px;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  left: 220px;
+  padding-top: 0px;
+  position: relative;
+  top: 112px;
+}
+
+.footer-footer-links li {
+  display: inline-block;
+  font-size: 18rems;
+  list-style: none;
+  padding: 10px;  
+  position: relative;
+  right: -1050px;
+  top: 50px;
+}
+
+.footer-footer-links li a {   
+  color: #FAB050;  
+  font-size: 15rems;
+}
