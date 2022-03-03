@@ -1,9 +1,126 @@
-html>
- 
-<body>
-  <h1>ed.E.Wilson</h1>
-  <p>Welcome to my website! I really appreciate you dropping by.</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+<!-- 
+    ///////////////////////////////////////////////////////////////////////////
+    WEBSITE:
+    ed.E Wilson, Front End Engineer
+
+    AUTHOR:
+    ed.E Wilson
+
+    CREATED:
+    1/30/2022
+
+    LAST MODIFIED:
+    3/2/2022
+    ///////////////////////////////////////////////////////////////////////////
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet"> 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet"> 
+      <link href="ed.e.wilson-reset.css" rel="stylesheet">
+      <link href="ed.e.wilson.css" rel="stylesheet"> 
+      <title>ed.E.Wilson</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>      
+      <nav> 
+        <div class="nav-logo"><img src="logo_200x200_darkblue.png"/></div>
+        <div class="nav-author-name">ed.E Wilson</div>
+        <div class="nav-nav-links">
+          <ul>
+            <li><a id="#2">About</a></li>
+            <li><a id="#3">Contact</a></li>
+          </ul>
+        </div>
+      </nav>      
+    </header>
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- SECTION 1 -->
+      <section class="main-content-page-hero">
+        <div class="main-content-page-hero-container">
+          <img src="edEWilson2013_modified.jpeg" alt="Ed.E Wilson relaxed and confident" class="main-content-page-hero-image"/>
+        </div>
+        <div class="main-content-page-hero-captionbox">
+          <h1>SPECIALIZING IN FRONT-END DEVELOPMENT<br>FOR<br>MOBILE & WEB APPLICATIONS<h1></h1>
+        </div>
+      </section>
+      <!-- SECTION 2 -->
+      <section class="main-content-skills">                   
+        <ul>    
+          <li><img src="html.png" alt="The HTML markup language" title="markup language for website structure and content"/></li>
+          <li><img src="css.jpeg" alt="The CSS stylesheet language" title="stylesheet language"/></li>
+          <li><img src="javascript.jpeg" alt="The JavaScript programming language" title="programming language for website interaction"/></li>
+          <li><img src="react.png" alt="The React JavaScript library" title="the popular JavaScript library"/></li>
+          <li><img src="kotlin.jpeg" alt="The Kotlin programming language" title="programming language for Android"/></li>
+          <li><img src="python.png" alt="The Python programming language" title="the Python programming language"/></li>
+          <li><img src="mysql.png" alt="The MySQL database programming language" title="MySQL database language"/></li>
+        </ul>        
+      </section>
+      <!-- SECTION 3 -->
+      <section class="main-content-aboutme">
+        <h2>About Me</h2>
+        <br>
+        <div class="main-content-container">
+          <p>I'm a former IT support professional currently in training to become a front end web developer. My goal 
+            is to become proficient at the coding languages and libraries below that I so that I can be ready for front end development work.<br><br>
+          </p>                            
+          <p>I'm confident that I can perform some web development tasks since I'm comfortable with HTML and
+            CSS, but I'm not quite there yet--at least not where I would like to be. I should be ready before the end of Spring; in the meantime, my 
+            simple web page will serve as proof of the skills I've acquired up to this point.<br><br>By the way, fun fact: when I'm not working on 
+            coding, I enjoy playing my bass to popular old rock, soul, pop and alternative songs.
+          </p>
+        </div>  
+      </section>
+      <!-- SECTION 4 -->
+      <section class="main-content-contactform" >
+        <h2>What Can I Do For You?</h2><br>
+        <p>Do you have a question or would you like me to work with you on a project for a website or app?</p>
+        <form action="http://192.168.1.120/process.php">
+          <label class="main-content-contactform-label-name">
+            Name:
+            <br>
+            <input type="text" name="name" required="required"  class="main-content-contactform-field-name">
+            <br>
+            <br>
+          </label>
+          <label class="main-content-contactform-label-email">
+            Email Address:
+            <br>
+            <input type="email" name="email" required="required" class="main-content-contactform-field-email">
+          </label>
+          <br>
+          <br>
+          <label class="main-content-contactform-label-message">
+            Message:
+            <br>
+            <input type="textarea" name="message" class="main-content-contactform-field-message">
+          </label>
+          <input type="submit" name="submit" value="Submit"  class="main-content-contactform-button-submit">
+        </form>             
+      </section>
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer-logo"><img src="logo_200x200_darkblue.png"/></div>
+        <div class="footer-author-name">ed.E Wilson</div>
+        <div class="footer-copyright">&copy; 2022 | All Rights Reserved.</div>
+        <div class="footer-footer-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </footer>      
+    </main>    
+  </body>
 </html>
