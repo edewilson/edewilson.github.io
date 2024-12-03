@@ -21,8 +21,10 @@ header {
 .main-content {
    background: #ffffff;
    height: 1100px;
+   margin-left: 120px;
    margin-bottom: 10px;
-   padding: 20px;
+   padding: 20px; /* original - 20px*/
+   width: 80%;
 }
 
  h1, h2 {
