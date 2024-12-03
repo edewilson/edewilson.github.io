@@ -18,16 +18,47 @@ header {
    width: 80%;
 }
 
+/* 
+.container h1,
+.container h2 {
+   position: fixed;
+}
+*/
+
+.container h1 {
+   color: #ffffff;
+   font-size: 100px;
+   margin-bottom: 2px;		
+}
+
+.container h2 {
+   color: #ffffff;
+   font-size: 20px;	
+}
+
+
 .main-content {
    background: #ffffff;
-   height: 1100px;
-   margin-left: 120px;
+   height: 1030px;
+   margin-left: 150px;
    margin-bottom: 10px;
-   padding: 20px; /* original - 20px*/
+	   overflow: scroll;
+   padding: 20px;
    width: 80%;
 }
 
+/*
  h1, h2 {
+   color: #35424a;
+ }
+
+*/
+
+.summary h2, 
+.skills h2,
+.experience h2,
+.industries h2,
+.education h2 {
    color: #35424a;
  }
 
